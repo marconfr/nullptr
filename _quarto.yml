@@ -2,8 +2,8 @@ project:
   type: book
 
 book:
-  title: "Nullptr"
-  author: "Frédéric Marçon"
+  title: "nullptr"
+  author: "Qu4dRature"
   date: "NULL"
   chapters:
     - index.qmd
@@ -19,6 +19,8 @@ book:
     - 10.qmd
     - references.qmd
 css: nostyle.css
+
+lightbox: true
 
 bibliography: references.bib
 
