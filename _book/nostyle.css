@@ -1,0 +1,39 @@
+.lettrine {
+    float: left;
+    font-size: 5.4em;
+    line-height: 0.8;
+    margin-right: 0.1em;
+    font-weight: bold;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  p, h1, h2, h3 {
+    color: greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  body,a {
+    color: green;
+  }
+.nav-sidebar a {
+  color: green ;
+}
+
+.nav-sidebar a:hover {
+  color: greenyellow;
+}
+
+.nav-sidebar .active a {
+  color: greenyellow;
+}
+
+.sidebar-link.active .menu-text{
+  color: red;
+}
+
+.sidebar-link.active span.chapter-title {
+  color: red; 
+}

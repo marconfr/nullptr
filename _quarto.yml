@@ -7,15 +7,27 @@ book:
   date: "NULL"
   chapters:
     - index.qmd
-    - intro.qmd
+    - 1.qmd
+    - 2.qmd
+    - 3.qmd
+    - 4.qmd
+    - 5.qmd
+    - 6.qmd
+    - 7.qmd
+    - 8.qmd
+    - 9.qmd
+    - 10.qmd
     - references.qmd
+css: nostyle.css
 
 bibliography: references.bib
 
 format:
   html:
-    theme: cyborg
+    theme: cyborg    
+    number-sections: false
   pdf:
+    number-sections: false
     documentclass: scrreprt
 
 
