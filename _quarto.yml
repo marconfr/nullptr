@@ -1,0 +1,22 @@
+project:
+  type: book
+
+book:
+  title: "Nullptr"
+  author: "Frédéric Marçon"
+  date: "NULL"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cyborg
+  pdf:
+    documentclass: scrreprt
+
+
+
